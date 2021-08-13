@@ -1,0 +1,114 @@
+/* GENERAL STYLE */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: century;
+    background-color: blue;
+}
+
+/* THE LIST STYLE */
+ul{ 
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{ 
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{ 
+    background: red;
+    color: black;
+}
+
+/* THE LOGO'S STYLE (COLOR ETC) */
+.logo a{
+    color: #fff;
+    padding: 0% 20px;
+    border: 1px solid none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration:none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span{ 
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* THE ATTRIBUTE'S BUTTONS STYLES */
+.attrinfo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* THE CONNECT BUTTON STYLE (DECORATION SIZE ETC) */
+.btn1 { 
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+    
+}
+
+/* THE CONNECT BUTTON COLOR */
+.btn1:hover{ 
+    background: red;
+    color: black;
+}
+
+.btn2 { 
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+   
+}
+
+/* THE CONNECT BUTTON COLOR */
+.btn2:hover{ 
+    background: red;
+    color: black;
+}
+
+.btn3 { 
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+   
+}
+
+/* THE CONNECT BUTTON COLOR */
+.btn3:hover{ 
+    background: red;
+    color: black;
+}
